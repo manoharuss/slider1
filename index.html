@@ -45,20 +45,20 @@ var beforeMap = new mapboxgl.Map({
     container: 'before',
     style: 'mapbox://styles/manoharuss/cis0f0ux30068gwkll4hi4o24',
     center: [-120.68683, 56.15320],
-    zoom: 17
-    
+    zoom: 17,
+    hash: true
 });
 
 var afterMap = new mapboxgl.Map({
     container: 'after',
     style: 'mapbox://styles/mapbox/dark-v9',
     center: [-120.68683, 56.15320],
-    zoom: 17
-    
+    zoom: 17,
+    hash: true
 });
 
 var map = new mapboxgl.Compare(beforeMap, afterMap);
-hash: true
+
 </script>
 
 </body>
